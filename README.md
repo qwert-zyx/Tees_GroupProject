@@ -28,16 +28,16 @@
 > 
 
 
-> #程序部分使用说明
-> >##附身
+> # 程序部分使用说明
+> >## 附身
 > >
 > >表现：当面前有可附身物品的时候,按E就可以化身为该物体，再次按E，即可变回女巫
 > >
-> >###使用前提条件
+> >### 使用前提条件
 > >
 > >先把Gamemode里面的控制器改为“BP_SoulController”
 > >
-> >###使用指南
+> >### 使用指南
 > >
 > >去/All/Game/ThirdPerson/Blueprints/BP_Actor/BP_SpecialActor里面拖出你需要的物品，检查并确定它细节里的Pawn Class一栏是你需要控制的Pawn（从actor变成对应的pawn）
 > >
