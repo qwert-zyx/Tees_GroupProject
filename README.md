@@ -1,4 +1,4 @@
-### Tees_GroupProject
+# Tees_GroupProject
 小组作业
 
 > ### 各文件夹作用：
@@ -26,3 +26,22 @@
 > 
 > 换行：1.两次回车 2.在行尾在行尾输入”两个空格“然后按”回车“
 > 
+
+
+> #程序部分使用说明
+> >##附身
+> >
+> >表现：当面前有可附身物品的时候,按E就可以化身为该物体，再次按E，即可变回女巫
+> >
+> >###使用前提条件
+> >
+> >先把Gamemode里面的控制器改为“BP_SoulController”
+> >
+> >###使用指南
+> >
+> >去/All/Game/ThirdPerson/Blueprints/BP_Actor/BP_SpecialActor里面拖出你需要的物品，检查并确定它细节里的Pawn Class一栏是你需要控制的Pawn（从actor变成对应的pawn）
+> >
+> >去/All/Game/ThirdPerson/Blueprints/BP_Actor/BP_Pawn中对应该物品的Pawn检查OriginalItemClass是不是绑定的该物品（从pawn变回对应的actor）
+> >
+> >将物品放在场景中，当操控的角色面前有可附身物品的时候,按E就可以化身为该物体，再次按E，即可变回女巫
+> >
